@@ -1,8 +1,21 @@
 {
   "name": "celo-coffee",
   "version": "1.0.0",
+  "description": "CELO Coffee Payment Tracker - A serverless app that tracks CELO payments on Alfajores testnet",
   "type": "module",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "vercel dev",
+    "build": "echo 'No build step required for serverless functions'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["celo", "blockchain", "payments", "coffee", "serverless", "vercel"],
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
     "web3": "^4.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
